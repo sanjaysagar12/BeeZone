@@ -11,6 +11,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="navBar.css" />
   </head>
 
   <body>
@@ -26,40 +27,29 @@
         min-height: 100vh;
       "
     >
-      <header class="container masthead">
-        <div class="inner">
-          <h1
-            class="masthead-brand text-white"
-            style="text-shadow: 0px 1px 4px #000000"
-          >
-            BeeZone
-          </h1>
-          <nav class="nav nav-masthead justify-content-center">
-            <a
-              class="p-3 text-white h5"
-              style="text-shadow: 0px 1px 4px #000000"
-              href="index.html"
-            >
-              Home
-            </a>
-            <a
-              class="p-3 text-white h5"
-              style="text-shadow: 0px 1px 4px #000000"
-              href="about.html"
-            >
-              About US
-            </a>
-            <a
-              class="p-3 text-white h5"
-              style="text-shadow: 0px 1px 4px #000000"
-              href="contact.html"
-            >
-              Contact
-            </a>
-          </nav>
+      <div class="d-flex h-100 text-center text-dark">
+        <div
+          class="nav-cover-container d-flex w-100 h-100 p-3 mx-auto flex-column"
+        >
+          <header class="mb-auto">
+            <div>
+              <a href="index.html">
+                <h3 class="float-md-start mb-0">Cover</h3>
+              </a>
+              <nav class="nav nav-masthead justify-content-center float-md-end">
+                <a
+                  class="nav-link active text-dark"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+                <a class="nav-link text-dark" href="about.html">About US</a>
+                <a class="nav-link text-dark" href="contact.html">Contact</a>
+              </nav>
+            </div>
+          </header>
         </div>
-      </header>
-
+      </div>
       <main
         role="main"
         class="inner cover text-center"
@@ -69,9 +59,8 @@
           class="cover-heading text-white"
           style="text-shadow: 0px 1px 4px #000000"
         >
-          "Experience the Comforts of Home,
+          "Experience the Comforts of Home,<br />Even When You're Miles Away"
         </h1>
-        <h1 class="cover-heading text-white">Even When You're Miles Away"</h1>
         <p class="lead text-white" style="text-shadow: 0px 1px 4px #000000">
           At BeeZone Homestay, we understand the importance of feeling at home,
           no matter where you are.<br />

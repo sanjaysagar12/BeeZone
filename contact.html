@@ -10,6 +10,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="navBar.css" />
   </head>
   <body class="bg-secondary text-dark bg-opacity-10">
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -36,27 +37,31 @@
       </symbol>
     </svg>
     <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="masthead">
-        <div class="inner">
-          <a
-            class="masthead-brand text-dark h1"
-            href="index.html"
-            style="text-decoration: none"
-            >BeeZone</a
-          >
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="p-3 text-dark h5" href="index.html">Home</a>
-            <a
-              class="p-3 text-dark h5"
-              style="text-decoration: none"
-              href="about.html"
-            >
-              About US
-            </a>
-            <a class="p-3 text-dark h5 active" href="contact.html"> Contact </a>
-          </nav>
+      <div class="d-flex h-100 text-center text-dark">
+        <div
+          class="nav-cover-container d-flex w-100 h-100 p-3 mx-auto flex-column"
+        >
+          <header class="mb-auto">
+            <div>
+              <a href="index.html">
+                <h3 class="float-md-start mb-0">Cover</h3>
+              </a>
+              <nav class="nav nav-masthead justify-content-center float-md-end">
+                <a
+                  class="nav-link text-dark"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+                <a class="nav-link text-dark" href="about.html">About US</a>
+                <a class="nav-link text-dark active" href="contact.html"
+                  >Contact</a
+                >
+              </nav>
+            </div>
+          </header>
         </div>
-      </header>
+      </div>
       <main class="px-1 text-centre">
         <!-- Contact 1 - Bootstrap Brain Component -->
         <section class="">
